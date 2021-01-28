@@ -15,7 +15,11 @@ def summon_captain_planet(planeteer_calls)
 end
 
 def long_planeteer_calls(planeteer_calls)
-  planeteer_calls.all? do |word| word.length < 4
+  planeteer_calls.all? do |string| string.length < 4
+if planeteer_calls.length < 4
+  
+  
+    
   end
 
   # Use an Enumerable to check if any string in the passed in array is greater than 4 characters long
