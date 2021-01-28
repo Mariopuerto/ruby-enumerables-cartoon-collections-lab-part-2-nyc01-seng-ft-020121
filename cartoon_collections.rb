@@ -17,7 +17,7 @@ end
 def long_planeteer_calls(planeteer_calls)
   planeteer_calls.any? do |string|
 if planeteer_calls.length > 4.true?
-  
+
 
 
   end
