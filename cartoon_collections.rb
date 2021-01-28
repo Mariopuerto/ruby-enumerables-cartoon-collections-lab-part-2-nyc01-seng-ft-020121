@@ -9,6 +9,7 @@ end
 def summon_captain_planet(planeteer_calls)
   array.map do |element|
     element.uppercase
+  end
   # Use an Enumerable to capitalize and add '!' to every element in the passed in array
   # Return a new array of the results
 end
